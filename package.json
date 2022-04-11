@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "queue": "^6.0.2"
+  }
+}
