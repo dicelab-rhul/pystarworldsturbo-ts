@@ -1,3 +1,3 @@
 # pystarworldsturbo-ts
 
-Implementation of pystarworldsturbo in TypeScript
+Implementation of [pystarworldsturbo](https://github.com/dicelab-rhul/pystarworldsturbo) in TypeScript.
