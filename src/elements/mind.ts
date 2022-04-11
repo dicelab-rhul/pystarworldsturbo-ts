@@ -2,21 +2,17 @@ import { Action } from "../common/action";
 
 
 
-export class Mind {
+export abstract class Mind {
 
-    perceive(..._: any[]) : void {
+    // To be overridden by subclasses.
+    abstract perceive(..._: any[]) : void;
 
-    }
+    // To be overridden by subclasses.
+    abstract revise(..._: any[]) : void;
 
-    revise(..._: any[]) : void {
+    // To be overridden by subclasses.
+    abstract decide(..._: any[]) : void;
 
-    }
-
-    decide(..._: any[]) : void {
-
-    }
-
-    execute(..._: any[]) : Action {
-        return null;
-    }
+    // To be overridden by subclasses.
+    abstract execute(..._: any[]) : Action;
 }

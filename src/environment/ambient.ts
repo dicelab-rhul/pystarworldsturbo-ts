@@ -1,3 +1,3 @@
-export class Ambient {
+export abstract class Ambient {
     
 }

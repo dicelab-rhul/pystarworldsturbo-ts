@@ -7,7 +7,7 @@ import { Action } from "../common/action";
 
 
 
-export class Actor extends Body {
+export abstract class Actor extends Body {
     #mind: Mind;
     #sensors: Array<Sensor>;
     #actuators: Array<Actuator>;
@@ -56,7 +56,8 @@ export class Actor extends Body {
         return null;
     }
 
-    cycle() : void {}
+    // To be overridden by subclasses.
+    abstract cycle() : void;
 
     getPendingActions() : Array<Action> {
         let actions: Array<Action> = [];

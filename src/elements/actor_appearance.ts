@@ -2,7 +2,7 @@ import { Identifiable } from "../common/identifiable";
 
 
 
-export class ActorAppearance extends Identifiable {
+export abstract class ActorAppearance extends Identifiable {
     constructor(actorID: String) {
         super(actorID);
     }

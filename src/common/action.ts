@@ -2,7 +2,7 @@ import { Event } from "./event";
 
 
 
-export class Action extends Event {
+export abstract class Action extends Event {
     #actorID: String;
 
     constructor(actorID: String) {

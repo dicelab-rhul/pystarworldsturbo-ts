@@ -1,4 +1,4 @@
-export class Identifiable {
+export abstract class Identifiable {
     #id: String;
 
     constructor(identifiableID: String) {

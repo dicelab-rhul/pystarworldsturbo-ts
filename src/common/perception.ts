@@ -2,7 +2,7 @@ import { Event } from "./event";
 
 
 
-export class Perception extends Event {
+export abstract class Perception extends Event {
     constructor() {
         super();
     }

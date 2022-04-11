@@ -2,7 +2,7 @@ import { Action } from "../common/action";
 
 
 
-export class Actuator {
+export abstract class Actuator {
     #subscribedEventTypes: Array<String>;
     #actionBuffer: Array<Action>;
 

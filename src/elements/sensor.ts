@@ -2,7 +2,7 @@ import { Perception } from "../common/perception";
 
 
 
-export class Sensor {
+export abstract class Sensor {
     #subscribedEventTypes: Array<String>;
     #perceptionBuffer: Array<Perception>;
 

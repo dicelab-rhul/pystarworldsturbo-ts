@@ -1,6 +1,6 @@
 import { Identifiable } from "../common/identifiable";
 
-export class Body extends Identifiable {
+export abstract class Body extends Identifiable {
     constructor() {
         super(null);
     }

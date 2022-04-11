@@ -1,3 +1,3 @@
-export class LocationAppearance {
+export abstract class LocationAppearance {
     
 }
